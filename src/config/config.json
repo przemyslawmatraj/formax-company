@@ -1,0 +1,33 @@
+{
+    "site": {
+        "title": "Formax Tarnów",
+        "base_url": "https://formax.net.pl",
+        "base_path": "/",
+        "favicon": "/images/favicon.png",
+        "logo": "/images/logo.png",
+        "logo_width": "147",
+        "logo_height": "31",
+        "logo_text": "Formax"
+      },
+    "metadata": {
+        "meta_author": "Paweł Boryczka",
+        "meta_image": "/images/og-image.png",
+        "meta_description": "Formax - firma budowlana"
+    },
+    "params": {
+        "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+        "email": "info@andromeda.io",
+        "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
+        "phone": "+704-555-0127",
+        "contact_form_action": "#",
+        "copyright": "Formax © 2023 Wszelkie prawa zastrzeżone."
+    },
+    "call_to_action": {
+        "title": "Skontaktuj się z nami",
+        "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+        "button": {
+          "label": "Skontaktuj się z nami",
+          "link": "/kontakt"
+        }
+    }
+}

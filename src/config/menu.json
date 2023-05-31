@@ -1,0 +1,77 @@
+{
+  "main": [
+    {
+      "name": "Strona Główna",
+      "url": "/"
+    },
+    {
+      "name": "O nas",
+      "url": "/onas"
+    },
+    {
+      "name": "Uslugi",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Budowa domów",
+          "url": "/oferta/budowa-domow"
+        },
+
+        {
+          "name": "Remonty",
+          "url": "/oferta/remonty-domow"
+        },
+
+        {
+          "name": "Murowanie",
+          "url": "/oferta/murowanie"
+        },
+        {
+          "name": "Elewacje",
+          "url": "/oferta/elewacje"
+        },
+
+        {
+          "name": "Osuszanie budynków",
+          "url": "/oferta/osuszanie-budynkow"
+        },
+        {
+          "name": "Ogrodzenia",
+          "url": "/oferta/ogrodzenia"
+        },
+        {
+          "name": "Usługi brukarskie",
+          "url": "/oferta/uslugi-brukarskie"
+        },
+        {
+          "name": "Stany surowe",
+          "url": "/oferta/stany-surowe"
+        }
+      ]
+    },
+    {
+      "name": "Kontakt",
+      "url": "/kontakt"
+    }
+  ],
+
+  "footer": [
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "Elements",
+      "url": "/elements"
+    },
+    {
+      "name": "Changelog",
+      "url": "/changelog"
+    }
+  ]
+}

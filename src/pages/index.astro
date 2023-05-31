@@ -1,15 +1,30 @@
 ---
+import MainLayout from "../layouts/MainLayout.astro";
+import config from "@config/config.json";
+
+const { call_to_action } = config;
+const { button } = call_to_action;
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<MainLayout title="Formax - Tarnowska Firma Budowlana zoriento">
+	<div class="bg-[url('/images/baner.webp')] text-white relative isolate">
+		<div class="bg-black absolute inset-0 -z-10 opacity-50"></div>
+		<header class="container p-3 mx-auto grid lg:grid-cols-[50%,50%] h-screen">
+			<div class="flex flex-col">
+				
+			</div>
+			<div class="flex flex-col justify-center shadow">
+				<h1 class="text-5xl font-bold mb-7 text-white">Firma budowlana FORMAX - Twój solidny partner w realizacji marzeń o idealnym domu!</h1>
+				<p class="text-xl">Spełniamy Twoje oczekiwania, oferując szeroką gamę usług budowlanych: od budowy domów jednorodzinnych, przez usługi brukarskie, po wyjątkowe ogrodzenia i adaptacje poddaszy. Doświadczenie od 1993 roku, rzetelność i terminowe wykonywanie prac to nasze największe atuty. </p>
+				<button class="bg-red-800 text-white px-5 py-3 mt-7 rounded-md shadow-md hover:bg-gray-100 transition duration-300 ease-in-out">
+					<a href={button.link} class="flex items-center">
+						<span class="mr-2">{button.label}</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+						</svg>
+					</a>
+				</button>
+			</div>
+		</header>
+	</div>
+</MainLayout>

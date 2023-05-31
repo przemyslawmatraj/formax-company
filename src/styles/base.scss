@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box
+}
+
+html {
+    @apply text-base;
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    @apply bg-white font-normal leading-relaxed;
+    font-family: Poppins, sans-serif;
+    width: 100%;
+    min-height: 100%;
+    color: #56585E;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold leading-tight text-[#28292E];
+    font-family: Montserrat, sans-serif;
+  }
+  
+  h1,
+  .h1 {
+    @apply text-h1-sm md:text-h1;
+  }
+  
+  h2,
+  .h2 {
+    @apply text-h2-sm md:text-h2;
+  }
+  
+  h3,
+  .h3 {
+    @apply text-h3-sm md:text-h3;
+  }
+  
+  h4,
+  .h4 {
+    @apply text-h4;
+  }
+  
+  h5,
+  .h5 {
+    @apply text-h5;
+  }
+  
+  h6,
+  .h6 {
+    @apply text-h6;
+  }
+  
