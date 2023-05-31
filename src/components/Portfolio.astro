@@ -1,0 +1,15 @@
+---
+import Gallery from "./Reactive/Gallery";
+import gallery from "@config/images.json"
+
+const { images } = gallery;
+---
+
+
+<section class="my-[var(--space-xl-2xl)]">
+    <h2 class="h2 text-center">Galeria wykonanych prac</h2>
+    <p class="text-gray-500 text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+    {Object.entries(images).map(([title, imgs]) => (
+        <Gallery images={imgs} title={title} client:only="react"/>
+    ))}
+</section>

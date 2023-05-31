@@ -1,0 +1,34 @@
+{
+    "tiles": [
+        {
+            "icon": "/images/ikona/clock-solid.svg",
+            "name": "Terminowość",
+            "description": "Formax gwarantuje terminowe wykonanie zlecanych prac, dzięki czemu klienci mogą być pewni, że budowa czy remont będzie przebiegać zgodnie z założonym harmonogramem."
+        },
+        {
+            "name": "Konkurencyjne ceny",
+            "icon": "/images/ikona/wallet-solid.svg",
+            "description": "Firma Formax oferuje atrakcyjne i konkurencyjne ceny usług budowlanych, dzięki czemu współpraca z nami nie nadwyręży Twojego budżetu."
+        },
+        {
+            "name": "Pełen zakres usług",
+            "icon": "/images/ikona/screwdriver-wrench-solid.svg",
+            "description": "Formax oferuje kompleksowe usługi budowlane, dzięki czemu nie musisz szukać innych wykonawców. Wszystko zrobimy za Ciebie."
+        },
+        {
+            "name": "Wysoka jakość",
+            "icon": "/images/ikona/circle-check-solid.svg",
+            "description": "Naszym klientom gwarantujemy wysoką jakość usług oraz profesjonalizm i dbałość o detale - wszystko zgodnie z kunsztem budowlanym."
+        },
+        {
+            "name": "Profesjonalna obsługa",
+            "icon": "/images/ikona/people-group-solid.svg",
+            "description": "Nasi pracownicy to wykwalifikowani specjaliści, którzy zawsze służą pomocą i doradzą w razie potrzeby. Z nami nie musisz się martwić o nic."
+        },
+        {
+            "name": "Bezpieczeństwo i ochrona środowiska",
+            "icon": "/images/ikona/shield-halved-solid.svg",
+            "description": "Formax priorytetowo traktuje kwestie bezpieczeństwa oraz ochrony środowiska, stosując tylko sprawdzone technologie i materiały budowlane."
+        }
+    ]
+}

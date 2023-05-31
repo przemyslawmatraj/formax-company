@@ -1,0 +1,36 @@
+---
+import config from "@config/stats.json"
+
+export interface Stats {
+    title: string
+    value: number
+}
+
+const { stats }: { stats: Stats[] } = config
+---
+
+<section class="grid lg:grid-cols-2">
+    <article class="pt-20 pb-40 px-10 md:p-20">
+        <div class="max-w-[600px] lg:ml-auto">
+            <h2 class="h2 pb-6" >Profesjonalizm i rzetelność w budownictwie</h2>
+        <p class="pb-10">
+            Firma FORMAX dąży do spełniania oczekiwań klientów na terenie Tarnowa i powiatu tarnowskiego poprzez świadczenie kompleksowych usług budowlanych oraz remontowych, takich jak budowa domów, elewacje, murowanie klinkierem, osuszanie murów czy nadzór budowlany. Jesteśmy dumni z naszej rzetelności, terminowości i indywidualnego podejścia do każdego klienta. Od 1993 roku służymy radą i doświadczeniem, pomagając przekształcać Twoje wizje w rzeczywistość.
+        </p>
+        <a href="/o-nas" class="uppercase font-semibold text-red-600">Dowiedz się więcej</a>
+        </div>
+    </article>
+    <div class="bg-red-700 text-white p-14 md:p-20">
+        <div class="max-w-[600px] lg:mr-auto">
+            <h3 class="h5 text-white uppercase mb-10">Zerknijmy na liczby</h3>
+        <div class="grid grid-cols-2 gap-10">
+            {stats.map(({ title, value }) => (
+                <div>
+                    <h4 class="text-white text-6xl pb-2">{value}</h4>
+                    <p>{title}</p>
+                </div>
+            ))}
+        </div>
+        </div>
+    </div>
+    
+</section>

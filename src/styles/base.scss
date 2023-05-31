@@ -1,3 +1,40 @@
+:root {
+  --step--2: clamp(0.60rem, calc(0.59rem + 0.06vw), 0.66rem);
+  --step--1: clamp(0.75rem, calc(0.71rem + 0.18vw), 0.93rem);
+  --step-0: clamp(0.94rem, calc(0.86rem + 0.38vw), 1.31rem);
+  --step-1: clamp(1.17rem, calc(1.04rem + 0.68vw), 1.86rem);
+  --step-2: clamp(1.47rem, calc(1.23rem + 1.16vw), 2.62rem);
+  --step-3: clamp(1.83rem, calc(1.46rem + 1.88vw), 3.71rem);
+  --step-4: clamp(2.29rem, calc(1.70rem + 2.96vw), 5.25rem);
+  --step-5: clamp(2.86rem, calc(1.95rem + 4.56vw), 7.42rem);
+}
+
+:root {
+  --space-3xs: clamp(0.25rem, calc(0.24rem + 0.06vw), 0.31rem);
+  --space-2xs: clamp(0.50rem, calc(0.46rem + 0.19vw), 0.69rem);
+  --space-xs: clamp(0.69rem, calc(0.63rem + 0.31vw), 1.00rem);
+  --space-s: clamp(0.94rem, calc(0.86rem + 0.38vw), 1.31rem);
+  --space-m: clamp(1.44rem, calc(1.33rem + 0.56vw), 2.00rem);
+  --space-l: clamp(1.88rem, calc(1.73rem + 0.75vw), 2.63rem);
+  --space-xl: clamp(2.81rem, calc(2.59rem + 1.13vw), 3.94rem);
+  --space-2xl: clamp(3.75rem, calc(3.45rem + 1.50vw), 5.25rem);
+  --space-3xl: clamp(5.63rem, calc(5.18rem + 2.25vw), 7.88rem);
+
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.25rem, calc(0.16rem + 0.44vw), 0.69rem);
+  --space-2xs-xs: clamp(0.50rem, calc(0.40rem + 0.50vw), 1.00rem);
+  --space-xs-s: clamp(0.69rem, calc(0.56rem + 0.63vw), 1.31rem);
+  --space-s-m: clamp(0.94rem, calc(0.73rem + 1.06vw), 2.00rem);
+  --space-m-l: clamp(1.44rem, calc(1.20rem + 1.19vw), 2.63rem);
+  --space-l-xl: clamp(1.88rem, calc(1.46rem + 2.06vw), 3.94rem);
+  --space-xl-2xl: clamp(2.81rem, calc(2.33rem + 2.44vw), 5.25rem);
+  --space-2xl-3xl: clamp(3.75rem, calc(2.93rem + 4.13vw), 7.88rem);
+
+  /* Custom pairs */
+  --space-s-l: clamp(0.94rem, calc(0.60rem + 1.69vw), 2.63rem);
+  --space-l-2xl: clamp(1.88rem, calc(1.20rem + 3.38vw), 5.25rem);
+}
+
 * {
   box-sizing: border-box
 }
@@ -22,37 +59,44 @@ html {
   h4,
   h5,
   h6 {
-    @apply font-bold leading-tight text-[#28292E];
-    font-family: Montserrat, sans-serif;
+    @apply leading-tight text-[#28292E];
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
   }
   
   h1,
   .h1 {
-    @apply text-h1-sm md:text-h1;
+    font-size: var(--step-3);
+    font-weight: 700;
   }
   
   h2,
   .h2 {
-    @apply text-h2-sm md:text-h2;
+    font-size: var(--step-2);
+       font-weight: 700;
   }
   
   h3,
   .h3 {
-    @apply text-h3-sm md:text-h3;
+    font-size: var(--step-1);
+       font-weight: 700;
   }
   
   h4,
   .h4 {
-    @apply text-h4;
+    font-size: var(--step-0);
+       font-weight: 700;
   }
   
   h5,
   .h5 {
-    @apply text-h5;
+    font-size: var(--step--1);
+       font-weight: 700;
   }
   
   h6,
   .h6 {
-    @apply text-h6;
+    font-size: var(--step--2);
+       font-weight: 700;
   }
   

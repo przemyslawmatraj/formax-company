@@ -1,0 +1,55 @@
+[
+        {
+            "name": "Budowa domów",
+            "url": "/oferta/budowa-domow",
+            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+            "image": "https://picsum.photos/id/866/200/300"
+          },
+  
+          {
+            "name": "Remonty",
+            "url": "/oferta/remonty-domow",
+            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+            "image": "https://picsum.photos/id/866/200/300"
+  
+          },
+  
+          {
+            "name": "Murowanie",
+            "url": "/oferta/murowanie",
+            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+  "image": "https://picsum.photos/id/866/200/300"
+          },
+          {
+            "name": "Elewacje",
+            "url": "/oferta/elewacje",
+            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+  "image": "https://picsum.photos/id/866/200/300"
+          },
+  
+          {
+            "name": "Osuszanie budynków",
+            "url": "/oferta/osuszanie-budynkow",
+            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+  "image": "https://picsum.photos/id/866/200/300"
+          },
+          {
+            "name": "Ogrodzenia",
+            "url": "/oferta/ogrodzenia",
+            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+  "image": "https://picsum.photos/id/866/200/300"
+          },
+          {
+            "name": "Usługi brukarskie",
+            "url": "/oferta/uslugi-brukarskie",
+            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+  "image": "https://picsum.photos/id/866/200/300"
+          },
+          {
+            "name": "Stany surowe",
+            "url": "/oferta/stany-surowe",
+            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+            "image": "https://picsum.photos/id/866/200/300"
+          }
+    ]
+  

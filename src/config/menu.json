@@ -5,12 +5,8 @@
       "url": "/"
     },
     {
-      "name": "O nas",
-      "url": "/onas"
-    },
-    {
-      "name": "Uslugi",
-      "url": "",
+      "name": "Oferta",
+      "url": "/oferta",
       "hasChildren": true,
       "children": [
         {
@@ -49,6 +45,10 @@
           "url": "/oferta/stany-surowe"
         }
       ]
+    },
+    {
+      "name": "O nas",
+      "url": "/onas"
     },
     {
       "name": "Kontakt",
