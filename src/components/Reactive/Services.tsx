@@ -8,7 +8,7 @@ const Services = () => {
     return <section className="container mx-auto mt-[var(--space-2xl-3xl)] px-5">
     <h2 className="h2 text-center capitalize">Nasza oferta</h2>
     <p className="text-gray-500 text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-    <div className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] lg:grid-cols-3 gap-4 mt-6">
+    <div className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] lg:grid-cols-3 gap-14 mt-6">
         {services.slice(
             0,
             isMore ? services.length : 6
