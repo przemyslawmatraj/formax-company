@@ -33,7 +33,7 @@ function Gallery({images, title}: {images: Image[], title: string}) {
             0,
             isMore ? images.length : 6
         ).map((image) => (
-                   <a href={image.src} key={image.src} className="inline-block m-1 p-1 w-[47%] lg:w-[24%]" style={{display: "inline-block", margin: "5px"}}>
+                   <a href={image.src} key={image.src} className="inline-block m-1 p-1 w-[46%] lg:w-[23%]" style={{display: "inline-block", margin: "5px"}}>
                    <img alt="img2" width="100%" src={image.thumb} />
                    <p className="text-gray-500 mt-2">{title}</p>
                </a>

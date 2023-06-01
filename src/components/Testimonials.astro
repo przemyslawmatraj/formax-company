@@ -2,12 +2,12 @@
 import testimonials from '@config/testimonials.json'
 ---
 
-<section class="container mx-auto my-[var(--space-xl-2xl)]">
-    <h2 class="h2 mb-[var(--space-s-m)]">Oto, co Mówią Klienci</h2>
-    <div class="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] items-start gap-5">
+<section class="container mx-auto my-[var(--space-xl-2xl)] px-5">
+    <h2 class="h2 mb-[var(--space-s-m)]">Oto, co Mówią o Nas Klienci</h2>
+    <div class="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] items-start gap-7">
         {testimonials.map(({content, author, location}, index) => {
             return (
-                <article class="p-4 flex flex-col">
+                <article class="py-4 flex flex-col">
                     <p class="text-m mb-[var(--space-xs-s)]">{content}</p>
                     <div class="flex items-center">
                         <img src={`https://i.pravatar.cc/100?img=${index+5}`} alt={author} class="w-16 h-16 rounded-full mr-4" />
