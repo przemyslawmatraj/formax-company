@@ -1,7 +1,7 @@
 ---
 import config from "@config/config.json";
 import Footer from "@partials/Footer.astro";
-import Header from "@partials/Header.astro";
+import Navbar from "@partials/Navbar.astro";
 import "@styles/main.scss";
 
 // types for frontmatters
@@ -84,7 +84,7 @@ const { title, description, image } =
 
   </head>
   <body>
-    <Header />
+    <Navbar />
     <main id="main-content" class="pt-17 flex flex-col min-h-screen">
       <slot />
     </main>
