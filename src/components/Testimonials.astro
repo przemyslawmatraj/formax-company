@@ -10,7 +10,7 @@ import testimonials from '@config/testimonials.json'
                 <article class="py-4 flex flex-col">
                     <p class="text-m mb-[var(--space-xs-s)]">{content}</p>
                     <div class="flex items-center">
-                        <img src={`https://i.pravatar.cc/100?img=${index+5}`} alt={author} class="w-16 h-16 rounded-full mr-4" />
+                        <img src={`https://i.pravatar.cc/100?img=${index+5}`} loading="lazy" alt={author} class="w-16 h-16 rounded-full mr-4" />
                         <div>
                             <p class="font-bold">{author}</p>
                             <p class="text-sm">{location}</p>

@@ -1,175 +1,175 @@
 {
     "images": {
       "budynek": [
-        {
-            "src": "images/budynek/1/ob7_1.jpg",
-            "thumb": "images/budynek/1/ob7_1.jpg"
+          {
+            "src": "http://localhost:3000/images/budynek/1/ob7_1.jpg",
+            "thumb": "http://localhost:3000/images/budynek/1/ob7_1.jpg"
           },
           {
-            "src": "images/budynek/1/ob7_2.jpg",
-            "thumb": "images/budynek/1/ob7_2.jpg"
+            "src": "http://localhost:3000/images/budynek/1/ob7_2.jpg",
+            "thumb": "http://localhost:3000/images/budynek/1/ob7_2.jpg"
           },
           {
-            "src": "images/budynek/1/ob7_3.jpg",
-            "thumb": "images/budynek/1/ob7_3.jpg"
+            "src": "http://localhost:3000/images/budynek/1/ob7_3.jpg",
+            "thumb": "http://localhost:3000/images/budynek/1/ob7_3.jpg"
           },
           {
-            "src": "images/budynek/2/ob6_1.jpg",
-            "thumb": "images/budynek/2/ob6_1.jpg"
+            "src": "http://localhost:3000/images/budynek/2/ob6_1.jpg",
+            "thumb": "http://localhost:3000/images/budynek/2/ob6_1.jpg"
           },
           {
-            "src": "images/budynek/2/ob6_2.jpg",
-            "thumb": "images/budynek/2/ob6_2.jpg"
+            "src": "http://localhost:3000/images/budynek/2/ob6_2.jpg",
+            "thumb": "http://localhost:3000/images/budynek/2/ob6_2.jpg"
           },
           {
-            "src": "images/budynek/2/ob6_3.jpg",
-            "thumb": "images/budynek/2/ob6_3.jpg"
+            "src": "http://localhost:3000/images/budynek/2/ob6_3.jpg",
+            "thumb": "http://localhost:3000/images/budynek/2/ob6_3.jpg"
           },
           {
-            "src": "images/budynek/3/ob5_1.jpg",
-            "thumb": "images/budynek/3/ob5_1.jpg"
+            "src": "http://localhost:3000/images/budynek/3/ob5_1.jpg",
+            "thumb": "http://localhost:3000/images/budynek/3/ob5_1.jpg"
           },
           {
-            "src": "images/budynek/3/ob5_2.jpg",
-            "thumb": "images/budynek/3/ob5_2.jpg"
+            "src": "http://localhost:3000/images/budynek/3/ob5_2.jpg",
+            "thumb": "http://localhost:3000/images/budynek/3/ob5_2.jpg"
           },
           {
-            "src": "images/budynek/3/ob5_3.jpg",
-            "thumb": "images/budynek/3/ob5_3.jpg"
+            "src": "http://localhost:3000/images/budynek/3/ob5_3.jpg",
+            "thumb": "http://localhost:3000/images/budynek/3/ob5_3.jpg"
           },
           {
-            "src": "images/budynek/4/ob4_1.jpg",
-            "thumb": "images/budynek/4/ob4_1.jpg"
+            "src": "http://localhost:3000/images/budynek/4/ob4_1.jpg",
+            "thumb": "http://localhost:3000/images/budynek/4/ob4_1.jpg"
           },
           {
-            "src": "images/budynek/4/ob4_2.jpg",
-            "thumb": "images/budynek/4/ob4_2.jpg"
+            "src": "http://localhost:3000/images/budynek/4/ob4_2.jpg",
+            "thumb": "http://localhost:3000/images/budynek/4/ob4_2.jpg"
           },
           {
-            "src": "images/budynek/4/ob4_3.jpg",
-            "thumb": "images/budynek/4/ob4_3.jpg"
+            "src": "http://localhost:3000/images/budynek/4/ob4_3.jpg",
+            "thumb": "http://localhost:3000/images/budynek/4/ob4_3.jpg"
           },
           {
-            "src": "images/budynek/5/ob2_1.jpg",
-            "thumb": "images/budynek/5/ob2_1.jpg"
+            "src": "http://localhost:3000/images/budynek/5/ob2_1.jpg",
+            "thumb": "http://localhost:3000/images/budynek/5/ob2_1.jpg"
           },
           {
-            "src": "images/budynek/5/ob2_2.jpg",
-            "thumb": "images/budynek/5/ob2_2.jpg"
+            "src": "http://localhost:3000/images/budynek/5/ob2_2.jpg",
+            "thumb": "http://localhost:3000/images/budynek/5/ob2_2.jpg"
           },
           {
-            "src": "images/budynek/5/ob2_3.jpg",
-            "thumb": "images/budynek/5/ob2_3.jpg"
+            "src": "http://localhost:3000/images/budynek/5/ob2_3.jpg",
+            "thumb": "http://localhost:3000/images/budynek/5/ob2_3.jpg"
           }
       ],
       "elewacja": [
         {
-          "src": "images/elewacja/ob3_1.jpg",
-          "thumb": "images/elewacja/ob3_1.jpg"
+          "src": "http://localhost:3000/images/elewacja/ob3_1.jpg",
+          "thumb": "http://localhost:3000/images/elewacja/ob3_1.jpg"
         },
         {
-          "src": "images/elewacja/ob3_2.jpg",
-          "thumb": "images/elewacja/ob3_2.jpg"
+          "src": "http://localhost:3000/images/elewacja/ob3_2.jpg",
+          "thumb": "http://localhost:3000/images/elewacja/ob3_2.jpg"
         },
         {
-          "src": "images/elewacja/ob3_3.jpg",
-          "thumb": "images/elewacja/ob3_3.jpg"
+          "src": "http://localhost:3000/images/elewacja/ob3_3.jpg",
+          "thumb": "http://localhost:3000/images/elewacja/ob3_3.jpg"
         },
         {
-          "src": "images/elewacja/ob3_4.jpg",
-          "thumb": "images/elewacja/ob3_4.jpg"
+          "src": "http://localhost:3000/images/elewacja/ob3_4.jpg",
+          "thumb": "http://localhost:3000/images/elewacja/ob3_4.jpg"
         },
         {
-          "src": "images/elewacja/ob3_5.jpg",
-          "thumb": "images/elewacja/ob3_5.jpg"
+          "src": "http://localhost:3000/images/elewacja/ob3_5.jpg",
+          "thumb": "http://localhost:3000/images/elewacja/ob3_5.jpg"
         },
         {
-          "src": "images/elewacja/ob3_6.jpg",
-          "thumb": "images/elewacja/ob3_6.jpg"
+          "src": "http://localhost:3000/images/elewacja/ob3_6.jpg",
+          "thumb": "http://localhost:3000/images/elewacja/ob3_6.jpg"
         }
       ],
       "ogrodzenie": [
         {
-          "src": "images/ogrodzenie/ob1_1.jpg",
-          "thumb": "images/ogrodzenie/ob1_1.jpg"
+          "src": "http://localhost:3000/images/ogrodzenie/ob1_1.jpg",
+          "thumb": "http://localhost:3000/images/ogrodzenie/ob1_1.jpg"
         },
         {
-          "src": "images/ogrodzenie/ob1_2.jpg",
-          "thumb": "images/ogrodzenie/ob1_2.jpg"
+          "src": "http://localhost:3000/images/ogrodzenie/ob1_2.jpg",
+          "thumb": "http://localhost:3000/images/ogrodzenie/ob1_2.jpg"
         }
       ],
       "stan-surowy": [
         {
-          "src": "images/stan-surowy/1/ob8_1.jpg",
-          "thumb": "images/stan-surowy/1/ob8_1.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/1/ob8_1.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/1/ob8_1.jpg"
         },
         {
-          "src": "images/stan-surowy/1/ob8_2.jpg",
-          "thumb": "images/stan-surowy/1/ob8_2.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/1/ob8_2.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/1/ob8_2.jpg"
         },
         {
-          "src": "images/stan-surowy/1/ob8_3.jpg",
-          "thumb": "images/stan-surowy/1/ob8_3.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/1/ob8_3.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/1/ob8_3.jpg"
         },
         {
-          "src": "images/stan-surowy/2/ob9_1.jpg",
-          "thumb": "images/stan-surowy/2/ob9_1.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/2/ob9_1.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/2/ob9_1.jpg"
         },
         {
-          "src": "images/stan-surowy/2/ob9_2.jpg",
-          "thumb": "images/stan-surowy/2/ob9_2.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/2/ob9_2.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/2/ob9_2.jpg"
         },
         {
-          "src": "images/stan-surowy/2/ob9_3.jpg",
-          "thumb": "images/stan-surowy/2/ob9_3.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/2/ob9_3.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/2/ob9_3.jpg"
         },
         {
-          "src": "images/stan-surowy/2/ob9_4.jpg",
-          "thumb": "images/stan-surowy/2/ob9_4.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/2/ob9_4.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/2/ob9_4.jpg"
         },
         {
-          "src": "images/stan-surowy/2/ob9_5.jpg",
-          "thumb": "images/stan-surowy/2/ob9_5.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/2/ob9_5.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/2/ob9_5.jpg"
         },
         {
-          "src": "images/stan-surowy/2/ob9_6.jpg",
-          "thumb": "images/stan-surowy/2/ob9_6.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/2/ob9_6.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/2/ob9_6.jpg"
         },
         {
-          "src": "images/stan-surowy/3/ob10_1.jpg",
-          "thumb": "images/stan-surowy/3/ob10_1.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/3/ob10_1.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/3/ob10_1.jpg"
         },
         {
-          "src": "images/stan-surowy/3/ob10_2.jpg",
-          "thumb": "images/stan-surowy/3/ob10_2.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/3/ob10_2.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/3/ob10_2.jpg"
         },
         {
-          "src": "images/stan-surowy/3/ob10_3.jpg",
-          "thumb": "images/stan-surowy/3/ob10_3.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/3/ob10_3.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/3/ob10_3.jpg"
         },
         {
-          "src": "images/stan-surowy/4/ob11_1.jpg",
-          "thumb": "images/stan-surowy/4/ob11_1.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/4/ob11_1.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/4/ob11_1.jpg"
         },
         {
-          "src": "images/stan-surowy/4/ob11_2.jpg",
-          "thumb": "images/stan-surowy/4/ob11_2.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/4/ob11_2.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/4/ob11_2.jpg"
         },
         {
-          "src": "images/stan-surowy/4/ob11_3.jpg",
-          "thumb": "images/stan-surowy/4/ob11_3.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/4/ob11_3.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/4/ob11_3.jpg"
         },
         {
-          "src": "images/stan-surowy/4/ob11_4.jpg",
-          "thumb": "images/stan-surowy/4/ob11_4.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/4/ob11_4.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/4/ob11_4.jpg"
         },
         {
-          "src": "images/stan-surowy/4/ob11_5.jpg",
-          "thumb": "images/stan-surowy/4/ob11_5.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/4/ob11_5.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/4/ob11_5.jpg"
         },
         {
-          "src": "images/stan-surowy/4/ob11_6.jpg",
-          "thumb": "images/stan-surowy/4/ob11_6.jpg"
+          "src": "http://localhost:3000/images/stan-surowy/4/ob11_6.jpg",
+          "thumb": "http://localhost:3000/images/stan-surowy/4/ob11_6.jpg"
         }
       ]
     }

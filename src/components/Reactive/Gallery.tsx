@@ -16,7 +16,7 @@ export interface Image {
     thumb: string;
 }
 
-function Gallery({images, title}: {images: Image[], title: string}) {
+function Gallery({images, title, more}: {images: Image[], title: string, more?: boolean}) {
     const [isMore, setIsMore] = useState(false);
 
     return <>
@@ -29,20 +29,27 @@ function Gallery({images, title}: {images: Image[], title: string}) {
                 download={false}
                 zoom={false}
             >
-                {images.slice(
+                {more ? images.slice(
             0,
             isMore ? images.length : 6
         ).map((image) => (
                    <a href={image.src} key={image.src} className="inline-block m-1 p-1 w-[46%] lg:w-[23%]" style={{display: "inline-block", margin: "5px"}}>
-                   <img alt="img2" width="100%" src={image.thumb} />
+                   <img loading="lazy" alt={image.src} width="100%" src={image.thumb} />
                    <p className="text-gray-500 mt-2">{title}</p>
                </a>
-                ))}
+                )) : images.map((image) => (
+                           <a href={image.src} key={image.src} className="inline-block m-1 p-1 w-[46%] lg:w-[23%]" style={{display: "inline-block", margin: "5px"}}>
+                           <img loading="lazy" alt={image.src} width="100%" src={image.thumb} />
+                           <p className="text-gray-500 mt-2">Tarnów</p>
+                       </a>
+                        ))}
             </LightGallery>
             </div>
-                <button onClick={() => setIsMore(prev => !prev)} className="uppercase font-semibold text-red-600 mt-14 block mx-auto border-2 border-red-600 p-4">Zobacz {
-                    isMore ? "mniej" : "więcej"
-                }</button>
+                {
+                    more ? <button onClick={() => setIsMore(prev => !prev)} className="uppercase font-semibold text-red-600 mt-14 block mx-auto border-2 border-red-600 p-4">Zobacz {
+                        isMore ? "mniej" : "więcej"
+                    }</button> : <></>
+                }
 
                 </>;
 }

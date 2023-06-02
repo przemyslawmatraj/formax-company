@@ -2,6 +2,7 @@
         {
             "name": "Budowa domów",
             "url": "/oferta/budowa-domow",
+            "slug": "budowa-domow",
             "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
             "image": "/images/budowa-domow.jpg"
           },
@@ -9,6 +10,7 @@
           {
             "name": "Remonty",
             "url": "/oferta/remonty-domow",
+            "slug": "remonty-domow",
             "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
             "image": "/images/remonty.jpg"
   
@@ -17,12 +19,14 @@
           {
             "name": "Murowanie",
             "url": "/oferta/murowanie",
+            "slug": "murowanie",
             "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
             "image": "/images/murowanie.jpg"
           },
           {
             "name": "Elewacje",
             "url": "/oferta/elewacje",
+            "slug": "elewacje",
             "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
   			"image": "/images/elewacja/ob3_2.jpg"
           },
@@ -30,24 +34,28 @@
           {
             "name": "Osuszanie budynków",
             "url": "/oferta/osuszanie-budynkow",
+            "slug": "osuszanie-budynkow",
             "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
   "image": "/images/osuszanie.jpg"
           },
           {
             "name": "Ogrodzenia",
             "url": "/oferta/ogrodzenia",
+            "slug": "ogrodzenia",
             "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
   "image": "/images/ogrodzenie/ob1_1.jpg"
           },
           {
             "name": "Usługi brukarskie",
             "url": "/oferta/uslugi-brukarskie",
+            "slug": "uslugi-brukarskie",
             "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
   "image": "/images/bruk.jpg"
           },
           {
             "name": "Stany surowe",
             "url": "/oferta/stany-surowe",
+            "slug": "stany-surowe",
             "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
             "image": "/images/stan-surowy/4/ob11_1.jpg"
           }

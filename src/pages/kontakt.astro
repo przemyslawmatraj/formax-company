@@ -1,10 +1,15 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+import ContactForm from "@components/ContactForm.astro";
 ---
 
-<MainLayout title="Formax - Tarnowska Firma Budowlana zoriento">
-    <div class="container">
-        <h1>Formax - Tarnowska Firma Budowlana zoriento</h1>
-        <p>Formax - Tarnowska Firma Budowlana zoriento</p>
-    </div>
+<MainLayout 
+    title="Skontaktuj się z nami"
+    description="Skontaktuj się z nami, jeśli masz pytania lub chcesz zlecić nam projekt."
+>
+<header class="bg-[#28292E] text-center p-[var(--space-l-xl)]">
+    <h1 class="h1 text-white">Kontakt</h1>
+    <span class="inline-block w-8 h-1 bg-red-700"></span>
+  </header>
+    <ContactForm />
 </MainLayout>

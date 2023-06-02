@@ -42,7 +42,7 @@ const { main }: { main: NavigationLink[] } = menu;
                         if (menuItem.hasChildren) {
                             return (
                                 <li tabindex="0">
-                                    <a class="text-white">
+                                    <span class="text-white">
                                         {menuItem.name}
                                         <svg
                                             class="fill-current"
@@ -54,7 +54,7 @@ const { main }: { main: NavigationLink[] } = menu;
                                                 d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
                                             ></path></svg
                                         >
-                                    </a>
+                                    </span>
                                     <ul class="p-2 bg-slate-200">
                                         {menuItem?.children?.map(
                                             childMenuItem => (

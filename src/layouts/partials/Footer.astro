@@ -1,0 +1,40 @@
+---
+import services from '@config/services.json'
+import { params } from '@config/config.json'
+---
+
+<footer class="bg-[#26272C] px-5">
+    <div class="container mx-auto grid grid-cols-[repeat(auto-fill,minmax(400px,1fr))] md:grid-cols-4 py-[var(--space-2xl-3xl)] gap-10 text-white leading-6">
+            <div>
+                <img loading="lazy" src="images/logo.png" alt="logo" class="img-responsive">
+                <p>{params.footer_description}
+                </p>
+            </div>
+            <div>
+                <h3 class="h3 text-white mb-[var(--space-s-m)]">Oferta</h3>
+                <ul class="flex flex-col gap-3">
+                    {services.map(service => (
+                        <li><a href={service.url } class="hover:text-red-600">{ service.name}</a></li>
+                    ))}
+                </ul>
+            </div>
+            <div>
+                <h3 class="h3 text-white mb-[var(--space-s-m)] ">Firma</h3>
+                <ul class="flex flex-col gap-3">
+                    <li><a href="/onas" class="hover:text-red-600">O nas</a></li>
+                <li><a href="/kontakt" class="hover:text-red-600">Skontaktuj się z nami</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="h3 text-white mb-[var(--space-s-m)]">Kontakt</h3>
+                <p>{params.location}</p>
+                <p>tel. {params.phone}</p>
+                <p>email:
+                    <a href={`mailto:
+                    ${params.email}`}>{params.email}</a>
+                </p>
+            </div>
+    </div>
+    <hr>
+    <span class="text-center block py-[var(--space-s-m)] text-white">{params.copyright}</span>
+</footer>
