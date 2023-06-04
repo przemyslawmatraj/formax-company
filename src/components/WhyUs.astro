@@ -8,28 +8,22 @@ const { tiles } = whyus;
     class="mt-[var(--space-2xl-3xl)] py-[var(--space-xl-2xl)] relative isolate"
 >
     <div class="bg-[#28292E] absolute inset-0 -z-10"></div>
-    <h5 class="h5 font-normal text-center text-white uppercase">Dlaczego my</h5>
-    <h2 class="h2 text-center text-white capitalize mb-7 mt-2">
-        Co nas wyróznia
-    </h2>
-    <div
-        class="container mx-auto grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] lg:grid-cols-3 items-start gap-8"
-    >
-        {
-            tiles.map(({ name, description, icon }) => (
-                <div class="flex flex-col items-center justify-center p-4 space-y-4">
-                    <div class="flex items-center justify-center w-16 h-16 bg-primary-500 rounded-full">
-                        <img
-                            loading="lazy"
-                            src={icon}
-                            alt={name}
-                            class="w-8 h-8"
-                        />
-                    </div>
-                    <h3 class="h3 text-center text-white">{name}</h3>
-                    <p class="text-center text-white ">{description}</p>
-                </div>
-            ))
-        }
-    </div>
+    <div class="h5 font-normal text-center text-white uppercase mx-auto"></div>
+    Dlaczego my
 </section>
+<h2 class="h2 text-center text-white capitalize mb-7 mt-2">Co nas wyróznia</h2>
+<div
+    class="container mx-auto grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] lg:grid-cols-3 items-start gap-8"
+>
+    {
+        tiles.map(({ name, description, icon }) => (
+            <div class="flex flex-col items-center justify-center p-4 space-y-4">
+                <div class="flex items-center justify-center w-16 h-16 bg-primary-500 rounded-full">
+                    <img loading="lazy" src={icon} alt={name} class="w-8 h-8" />
+                </div>
+                <h3 class="h3 text-center text-white">{name}</h3>
+                <p class="text-center text-white ">{description}</p>
+            </div>
+        ))
+    }
+</div>
