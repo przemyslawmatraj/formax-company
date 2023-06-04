@@ -4,11 +4,14 @@ import Mission from "@components/Mission.astro";
 import ContactForm from "@components/ContactForm.astro";
 ---
 
-<MainLayout title="Formax - Tarnowska Firma Budowlana zoriento">
-    <header class="bg-[#28292E] text-center p-[var(--space-l-xl)]">
-        <h1 class="h1 text-white">O nas</h1>
-        <span class="inline-block w-8 h-1 bg-red-700"></span>
-      </header>
-      <Mission />
-        <ContactForm />
+<MainLayout
+  title="Formax - Tarnowska Firma Budowlana"
+  description="Firma FORMAX dąży do spełniania oczekiwań klientów na terenie Tarnowa i powiatu tarnowskiego poprzez świadczenie kompleksowych usług budowlanych oraz remontowych, takich jak budowa domów, elewacje, murowanie klinkierem, osuszanie murów metodą iniekcji krystalicznej czy nadzór budowlany. Jesteśmy dumni z naszej rzetelności, terminowości i indywidualnego podejścia do każdego klienta. Od 1993 roku służymy radą i doświadczeniem, pomagając przekształcać Twoje wizje w rzeczywistość"
+>
+  <header class="bg-[#28292E] text-center p-[var(--space-l-xl)]">
+    <h1 class="h1 text-white">O nas</h1>
+    <span class="inline-block w-8 h-1 bg-red-700"></span>
+  </header>
+  <Mission />
+  <ContactForm />
 </MainLayout>

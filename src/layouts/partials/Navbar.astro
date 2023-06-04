@@ -1,16 +1,16 @@
 ---
 import menu from "@config/menu.json";
-
+import { params } from "@config/config.json";
 export interface ChildNavigationLink {
-  name: string;
-  url: string;
+    name: string;
+    url: string;
 }
 
 export interface NavigationLink {
-  name: string;
-  url: string;
-  hasChildren?: boolean;
-  children?: ChildNavigationLink[];
+    name: string;
+    url: string;
+    hasChildren?: boolean;
+    children?: ChildNavigationLink[];
 }
 
 const { main }: { main: NavigationLink[] } = menu;
@@ -38,7 +38,7 @@ const { main }: { main: NavigationLink[] } = menu;
                 class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
                 {
-                    main.map(menuItem => {
+                    main.map((menuItem) => {
                         if (menuItem.hasChildren) {
                             return (
                                 <li tabindex="0">
@@ -50,20 +50,15 @@ const { main }: { main: NavigationLink[] } = menu;
                                             width="20"
                                             height="20"
                                             viewBox="0 0 24 24"
-                                            ><path
-                                                d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
-                                            ></path></svg
                                         >
+                                            <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                                        </svg>
                                     </span>
                                     <ul class="p-2 bg-slate-200">
                                         {menuItem?.children?.map(
-                                            childMenuItem => (
+                                            (childMenuItem) => (
                                                 <li>
-                                                    <a
-                                                        href={
-                                                            childMenuItem.url
-                                                        }
-                                                    >
+                                                    <a href={childMenuItem.url}>
                                                         {childMenuItem.name}
                                                     </a>
                                                 </li>
@@ -86,59 +81,61 @@ const { main }: { main: NavigationLink[] } = menu;
             </ul>
         </div>
         <div class="navbar-start">
-            <a class="btn btn-ghost normal-case text-xl text-white mr-auto">Formax</a>
+            <a
+                href="/"
+                class="btn btn-ghost normal-case text-xl text-white mr-auto"
+                >Formax</a
+            >
         </div>
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-                {main.map(menuItem => {
-                    if (menuItem.hasChildren) {
-                        return (
-                            <li tabindex="0">
-                                <a  class="text-white">
-                                    {menuItem.name}
-                                    <svg
-                                        class="fill-current"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="20"
-                                        height="20"
-                                        viewBox="0 0 24 24"
-                                        ><path
-                                            d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
-                                        ></path></svg
-                                    >
-                                </a>
-                                <ul class="p-2 bg-slate-200">
-                                    {menuItem?.children?.map(
-                                        childMenuItem => (
-                                            <li>
-                                                <a
-
-                                                    href={
-                                                        childMenuItem.url
-                                                    }
-                                                >
-                                                    {childMenuItem.name}
-                                                </a>
-                                            </li>
-                                        )
-                                    )}
-                                </ul>
-                            </li>
-                        );
-                    } else {
-                        return (
-                            <li>
-                                <a href={menuItem.url}  class="text-white">{menuItem.name}</a>
-                            </li>
-                        );
-                    }
-                })}
+                {
+                    main.map((menuItem) => {
+                        if (menuItem.hasChildren) {
+                            return (
+                                <li tabindex="0">
+                                    <a class="text-white">
+                                        {menuItem.name}
+                                        <svg
+                                            class="fill-current"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                                        </svg>
+                                    </a>
+                                    <ul class="p-2 bg-slate-200">
+                                        {menuItem?.children?.map(
+                                            (childMenuItem) => (
+                                                <li>
+                                                    <a href={childMenuItem.url}>
+                                                        {childMenuItem.name}
+                                                    </a>
+                                                </li>
+                                            )
+                                        )}
+                                    </ul>
+                                </li>
+                            );
+                        } else {
+                            return (
+                                <li>
+                                    <a href={menuItem.url} class="text-white">
+                                        {menuItem.name}
+                                    </a>
+                                </li>
+                            );
+                        }
+                    })
+                }
             </ul>
         </div>
-        
+
         <div class="navbar-end hidden lg:grid justify-items-end text-white">
-            <div>Masz pytania? Zadzwoń: </div>
-            <div><a href="tel:+48 123 456 789">+48 123 456 789</a></div>
+            <div>Masz pytania? Zadzwoń:</div>
+            <div><a href="tel:+48 123 456 789">{params.phone}</a></div>
         </div>
     </div>
 </nav>

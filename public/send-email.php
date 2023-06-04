@@ -6,6 +6,11 @@
     $message = $_POST['message'];
     $from = 'Wiadomość ze strony';
 
+    if(empty($name) || empty($phone) || empty($email) || empty($message)) {
+        echo 'Wypełnij wszystkie pola';
+        exit;
+    }
+
     require 'vendor/autoload.php';
 
     use PHPMailer\PHPMailer\PHPMailer;
@@ -20,8 +25,8 @@
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 465;
 
-    $mail->Username = '_mainaccount@formax.webd.pl';
-    $mail->Password = 'anna12cvbcvb3';
+    $mail->Username = '';
+    $mail->Password = '';
 
     $mail->setFrom($email, $name);
     $mail->addAddress('formax@formax.webd.pl', 'Paweł Boryczka');

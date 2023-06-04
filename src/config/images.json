@@ -1,176 +1,261 @@
 {
     "images": {
-      "budynek": [
+      "budowa-domow": {
+        "name": "budowa-domów",
+        "imgs": [
           {
             "src": "https://formax-company.vercel.app/images/budynek/1/ob7_1.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/1/ob7_1.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/1/ob7_1_tn.jpg",
+            "location": "Budynek Przychodni Zdrowia w Nowodworzu."
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/1/ob7_2.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/1/ob7_2.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/1/ob7_2_tn.jpg",
+            "location": "Budynek Przychodni Zdrowia w Nowodworzu."
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/1/ob7_3.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/1/ob7_3.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/1/ob7_3_tn.jpg",
+            "location": "Budynek Przychodni Zdrowia w Nowodworzu."
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/2/ob6_1.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/2/ob6_1.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/2/ob6_1_tn.jpg",
+            "location": "Budynek hali handlowo-magazynowej w Tarnowie"
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/2/ob6_2.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/2/ob6_2.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/2/ob6_2_tn.jpg",
+            "location": "Budynek hali handlowo-magazynowej w Tarnowie"
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/2/ob6_3.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/2/ob6_3.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/2/ob6_3_tn.jpg",
+            "location": "Budynek hali handlowo-magazynowej w Tarnowie"
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/3/ob5_1.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/3/ob5_1.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/3/ob5_1_tn.jpg",
+            "location": "Budynek jednorodzinny w Tarnowie"
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/3/ob5_2.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/3/ob5_2.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/3/ob5_2_tn.jpg",
+            "location": "Budynek jednorodzinny w Tarnowie"
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/3/ob5_3.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/3/ob5_3.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/3/ob5_3_tn.jpg",
+            "location": "Budynek jednorodzinny w Tarnowie"
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/4/ob4_1.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/4/ob4_1.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/4/ob4_1_tn.jpg",
+            "location": "Budynek mieszkalno-handlowy w Tarnowie"
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/4/ob4_2.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/4/ob4_2.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/4/ob4_2_tn.jpg",
+            "location": "Budynek mieszkalno-handlowy w Tarnowie"
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/4/ob4_3.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/4/ob4_3.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/4/ob4_3_tn.jpg",
+            "location": "Budynek mieszkalno-handlowy w Tarnowie"
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/5/ob2_1.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/5/ob2_1.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/5/ob2_1_tn.jpg",
+            "location": "Budynek jednorodzinny w Tarnowie"
+
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/5/ob2_2.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/5/ob2_2.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/5/ob2_2_tn.jpg",
+            "location": "Budynek jednorodzinny w Tarnowie"
           },
           {
             "src": "https://formax-company.vercel.app/images/budynek/5/ob2_3.jpg",
-            "thumb": "https://formax-company.vercel.app/images/budynek/5/ob2_3.jpg"
+            "thumb": "https://formax-company.vercel.app/images/budynek/5/ob2_3_tn.jpg",
+            "location": "Budynek jednorodzinny w Tarnowie"
           }
-      ],
-      "elewacja": [
-        {
-          "src": "https://formax-company.vercel.app/images/elewacja/ob3_1.jpg",
-          "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_1.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/elewacja/ob3_2.jpg",
-          "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_2.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/elewacja/ob3_3.jpg",
-          "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_3.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/elewacja/ob3_4.jpg",
-          "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_4.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/elewacja/ob3_5.jpg",
-          "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_5.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/elewacja/ob3_6.jpg",
-          "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_6.jpg"
-        }
-      ],
-      "ogrodzenie": [
-        {
-          "src": "https://formax-company.vercel.app/images/ogrodzenie/ob1_1.jpg",
-          "thumb": "https://formax-company.vercel.app/images/ogrodzenie/ob1_1.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/ogrodzenie/ob1_2.jpg",
-          "thumb": "https://formax-company.vercel.app/images/ogrodzenie/ob1_2.jpg"
-        }
-      ],
-      "stan-surowy": [
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_1.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_1.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_2.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_2.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_3.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_3.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_1.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_1.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_2.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_2.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_3.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_3.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_4.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_4.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_5.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_5.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_6.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_6.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_1.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_1.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_2.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_2.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_3.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_3.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_1.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_1.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_2.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_2.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_3.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_3.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_4.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_4.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_5.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_5.jpg"
-        },
-        {
-          "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_6.jpg",
-          "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_6.jpg"
-        }
-      ]
+        ]
+      },
+      "elewacje": {
+        "name": "elewacje",
+        "imgs": [
+          {
+            "src": "https://formax-company.vercel.app/images/elewacja/ob3_1.jpg",
+            "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_1_tn.jpg",
+            "location": "Elewacje z cegły klinkierowej oraz kostka brukowa i ogrodzenie. Dwa budynki. Zawada k. Tarnowa."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/elewacja/ob3_2.jpg",
+            "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_2_tn.jpg",
+            "location": "Elewacje z cegły klinkierowej oraz kostka brukowa i ogrodzenie. Dwa budynki. Zawada k. Tarnowa."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/elewacja/ob3_3.jpg",
+            "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_3_tn.jpg",
+            "location": "Elewacje z cegły klinkierowej oraz kostka brukowa i ogrodzenie. Dwa budynki. Zawada k. Tarnowa."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/elewacja/ob3_4.jpg",
+            "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_4_tn.jpg",
+            "location": "Elewacje z cegły klinkierowej oraz kostka brukowa i ogrodzenie. Dwa budynki. Zawada k. Tarnowa."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/elewacja/ob3_5.jpg",
+            "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_5_tn.jpg",
+            "location": "Elewacje z cegły klinkierowej oraz kostka brukowa i ogrodzenie. Dwa budynki. Zawada k. Tarnowa."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/elewacja/ob3_6.jpg",
+            "thumb": "https://formax-company.vercel.app/images/elewacja/ob3_6_tn.jpg",
+            "location": "Elewacje z cegły klinkierowej oraz kostka brukowa i ogrodzenie. Dwa budynki. Zawada k. Tarnowa."
+          }
+        ]
+      },
+      "ogrodzenia": {
+        "name": "ogrodzenia",
+        "imgs": [
+          {
+            "src": "https://formax-company.vercel.app/images/ogrodzenie/ob1_1.jpg",
+            "thumb": "https://formax-company.vercel.app/images/ogrodzenie/ob1_1_tn.jpg",
+            "location": "Ogrodzenie z cegły klinkierowej w Tarnowie"
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/ogrodzenie/ob1_2.jpg",
+            "thumb": "https://formax-company.vercel.app/images/ogrodzenie/ob1_2_tn.jpg",
+            "location": "Ogrodzenie z cegły klinkierowej w Tarnowie"
+          }
+        ]
+      },
+      "stany-surowe": {
+        "name": "stany-surowe",
+        "imgs": [
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/5/5.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/5/5_tn.jpg",
+            "location": "Łętowice domek letniskowy"
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/6/6.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/6/6_tn.jpg",
+            "location": "Dąbrówka Szczepanowska"
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/7/7.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/7/7_tn.jpg",
+            "location": "Wola Rzędzińska"
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/8/8.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/8/8_tn.jpg",
+            "location": "Dąbrówka Szczepanowska"
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/9/9.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/9/9_tn.jpg",
+            "location": "Łętowice"
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/10/10.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/10/10_tn.jpg",
+            "location": "Łętowice"
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_1.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_1_tn.jpg",
+            "location": "Stan surowy. Ściany ytong 36cm. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_2.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_2_tn.jpg",
+            "location": "Stan surowy. Ściany ytong 36cm. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_3.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/1/ob8_3_tn.jpg",
+            "location": "Stan surowy. Ściany ytong 36cm. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_1.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_1_tn.jpg",
+            "location": "Stan surowy. Ściany thermopor 30cm. Ogrodzenie, kostka i tarasy. Tarnów-Krzyż."
+  
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_2.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_2_tn.jpg",
+            "location": "Stan surowy. Ściany thermopor 30cm. Ogrodzenie, kostka i tarasy. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_3.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_3_tn.jpg",
+            "location": "Stan surowy. Ściany thermopor 30cm. Ogrodzenie, kostka i tarasy. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_4.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_4_tn.jpg",
+            "location": "Stan surowy. Ściany thermopor 30cm. Ogrodzenie, kostka i tarasy. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_5.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_5_tn.jpg",
+            "location": "Stan surowy. Ściany thermopor 30cm. Ogrodzenie, kostka i tarasy. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_6.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/2/ob9_6_tn.jpg",
+            "location": "Stan surowy. Ściany thermopor 30cm. Ogrodzenie, kostka i tarasy. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_1.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_1_tn.jpg",
+            "location": "Stan surowy. Pustak H H 24cm. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_2.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_2_tn.jpg",
+            "location": "Stan surowy. Pustak H H 24cm. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_3.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/3/ob10_3_tn.jpg",
+            "location": "Stan surowy. Pustak H H 24cm. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_1.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_1_tn.jpg",
+            "location": "Stan surowy. Ściany silka 24cm. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_2.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_2_tn.jpg",
+            "location": "Stan surowy. Ściany silka 24cm. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_3.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_3_tn.jpg",
+            "location": "Stan surowy. Ściany silka 24cm. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_4.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_4_tn.jpg",
+            "location": "Stan surowy. Ściany silka 24cm. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_5.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_5_tn.jpg",
+            "location": "Stan surowy. Ściany silka 24cm. Tarnów-Krzyż."
+          },
+          {
+            "src": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_6.jpg",
+            "thumb": "https://formax-company.vercel.app/images/stan-surowy/4/ob11_6_tn.jpg",
+            "location": "Stan surowy. Ściany silka 24cm. Tarnów-Krzyż."
+          }
+        ]
+      }
     }
   }

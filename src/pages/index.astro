@@ -6,21 +6,21 @@ import Services from "@components/Reactive/Services";
 import WhyUs from "@components/WhyUs.astro";
 import Portfolio from "@components/Portfolio.astro";
 import FAQ from "@components/FAQ.astro";
-import Testimonials from "@components/Testimonials.astro";
 import ContactForm from "@components/ContactForm.astro";
 ---
 
-<MainLayout title="Formax - Tarnowska Firma Budowlana zoriento">
+<MainLayout
+	title="Formax - Tarnowska Firma Budowlana"
+	description="oferując szeroką gamę usług budowlanych: od usług muraskich i elewacje z klinkieru, przez budowę domów jednorodzinnych oraz usługi brukarskie, po wyjątkowe ogrodzenia i adaptacje poddaszy. Doświadczenie od 1993 roku, rzetelność i terminowe wykonywanie prac to nasze największe atuty."
+>
 	<Baner />
 	<Mission />
-	<Services client:only="react"/>
+	<Services client:only="react" />
 	<WhyUs />
 	<Portfolio />
-	<Testimonials />
 	<FAQ />
 	<ContactForm />
 </MainLayout>
-
 
 <style>
 	:global(#main-gallery) > div {

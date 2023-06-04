@@ -1,24 +1,35 @@
 ---
-import services from '@config/services.json';
-import MainLayout from '@layouts/MainLayout.astro';
-import Gallery from '@components/Reactive/Gallery';
-import {images} from '@config/images.json';
-import ContactForm from '@components/ContactForm.astro';
+import services from "@config/services.json";
+import MainLayout from "@layouts/MainLayout.astro";
+import Gallery from "@components/Reactive/Gallery";
+import { images } from "@config/images.json";
+import ContactForm from "@components/ContactForm.astro";
+import type { Image } from "@components/Reactive/Gallery";
 
 export async function getStaticPaths() {
-    return services.map((service) => {
-      return {
-        params: { slug: service.slug },
-        props: { ...service, galleryImages: images.budynek },
-      };
-    });
-  }
-  
-  const { name, description, image, galleryImages } = Astro.props;
+  return services.map((service) => {
+    const formatStackOfImages = (slug: string): Image[] => {
+      if (images.hasOwnProperty(slug)) {
+        return images[slug as keyof typeof images].imgs;
+      } else {
+        return [];
+      }
+    };
+    return {
+      params: { slug: service.slug },
+      props: { ...service, galleryImages: formatStackOfImages(service.slug) },
+    };
+  });
+}
 
+const { name, description, image, galleryImages } = Astro.props;
 ---
 
-<MainLayout>
+<MainLayout
+  title={`${name} - Usługi -Firma Budowlana FORMAX - Tarnów`}
+  description={description}
+  image={image}
+>
   <header class="bg-[#28292E] text-center p-[var(--space-l-xl)]">
     <h1 class="h1 text-white">{name}</h1>
     <span class="inline-block w-8 h-1 bg-red-700"></span>
@@ -26,7 +37,6 @@ export async function getStaticPaths() {
   <section
     class="grid grid-cols-1 md:grid-cols-2 gap-[var(--space-l-xl)] py-[var(--space-l-xl)] px-5 container mx-auto"
   >
-    
     <div class="flex justify-center">
       <img loading="lazy" src={image} alt={name} class="w-full" />
     </div>
@@ -35,9 +45,17 @@ export async function getStaticPaths() {
       <p class="text-[#8F8F8F]">{description}</p>
     </div>
   </section>
-
-  <section class="py-[var(--space-2xl-3xl)] container mx-auto px-5">
-    <Gallery images={galleryImages} title="Wykonane przez nas prace w tej dziedzinie:" more={false} client:only="react"/>
-  </section>
+  {
+    galleryImages.length > 0 && (
+      <section class="py-[var(--space-2xl-3xl)] container mx-auto px-5">
+        <Gallery
+          images={galleryImages}
+          title="Wykonane przez nas prace w tej dziedzinie:"
+          more={false}
+          client:only="react"
+        />
+      </section>
+    )
+  }
   <ContactForm />
 </MainLayout>

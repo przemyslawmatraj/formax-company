@@ -1,15 +1,29 @@
 ---
 import Gallery from "./Reactive/Gallery";
-import gallery from "@config/images.json"
+import gallery from "@config/images.json";
 
 const { images } = gallery;
 ---
 
-
 <section class="my-[var(--space-xl-2xl)] px-5">
     <h2 class="h2 text-center">Galeria wykonanych prac</h2>
-    <p class="text-gray-500 text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-    {Object.entries(images).map(([title, imgs]) => (
-        <Gallery images={imgs} title={title} client:only="react"/>
-    ))}
+    <p class="text-gray-500 text-center mt-4 max-w-[700px] mx-auto">
+        Prezentujemy szeroką gamę zrealizowanych projektów, które świadczą o
+        naszym zaangażowaniu, fachowości i dbałości o szczegóły. Zapraszamy do
+        zapoznania się z tym wyjątkowym portfolio. Przekonasz się o wysokiej
+        jakości naszych usług oraz estetyce wykonanych inwestycji.
+    </p>
+    {
+        Object.entries(images).map(([title, imgs]) => {
+            const formattedTitle = imgs.name.replace("-", " ");
+            return (
+                <Gallery
+                    images={imgs.imgs}
+                    title={formattedTitle}
+                    more={true}
+                    client:only="react"
+                />
+            );
+        })
+    }
 </section>

@@ -3,7 +3,7 @@
             "name": "Budowa domów",
             "url": "/oferta/budowa-domow",
             "slug": "budowa-domow",
-            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+            "description": "Firma Formax to Twoje zaufane miejsce, które zajmie się budową Twojego domu od fundamentów aż po dach. Doświadczenie, zaangażowanie i solidność to nasze atuty, zapewniając kompleksową i profesjonalną usługę na każdym etapie budowy domu.",
             "image": "/images/budowa-domow.jpg"
           },
   
@@ -11,23 +11,22 @@
             "name": "Remonty",
             "url": "/oferta/remonty-domow",
             "slug": "remonty-domow",
-            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+            "description": "Nasze usługi obejmują wszelkie prace remontowe zarówno wewnętrzne, jak i zewnętrzne, mające na celu odświeżenie wyglądu, poprawę funkcjonalności oraz zwiększenie komfortu życia w domu czy mieszkaniu.",
             "image": "/images/remonty.jpg"
   
           },
-  
           {
             "name": "Murowanie",
             "url": "/oferta/murowanie",
             "slug": "murowanie",
-            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+            "description": "Nasz zespół fachowców świadczy wysokiej jakości usługi murarskie, które obejmują m.in. murowanie, pomoc w realizacji projektów oraz szereg innych prac murarskich. Nasze wieloletnie doświadczenie pozwala nam na sprawne radzenie sobie z nawet najbardziej skomplikowanymi zadaniami.",
             "image": "/images/murowanie.jpg"
           },
           {
             "name": "Elewacje",
             "url": "/oferta/elewacje",
             "slug": "elewacje",
-            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+            "description": "Dbamy o estetyczny wygląd, trwałość oraz odpowiednią izolację budynku. Wykorzystujemy materiały najwyższej jakości, zapewniając nie tylko piękno, ale także ochronę Twojego domu przed wpływem czynników atmosferycznych.",
   			"image": "/images/elewacja/ob3_2.jpg"
           },
   
@@ -35,29 +34,29 @@
             "name": "Osuszanie budynków",
             "url": "/oferta/osuszanie-budynkow",
             "slug": "osuszanie-budynkow",
-            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+            "description": "Skutecznie osuszamy zawilgocone mury oraz zwalczamy problemy związane z wilgocią. Stosujemy iniekcję krystaliczną, która nie tylko osusza problemy tymczasowe, ale także chroni budynek przed ponownym zawilgoceniem na przyszłość.",
   "image": "/images/osuszanie.jpg"
           },
           {
             "name": "Ogrodzenia",
             "url": "/oferta/ogrodzenia",
             "slug": "ogrodzenia",
-            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+            "description": "Oferujemy wykonanie eleganckich i trwałych ogrodzeń z cegły klinkierowej oraz praktycznych i estetycznych ogrodzeń z siatki. Nasi specjaliści służą fachową poradą oraz wykonują zlecenia szybko i solidnie.",
   "image": "/images/ogrodzenie/ob1_1.jpg"
-          },
-          {
-            "name": "Usługi brukarskie",
-            "url": "/oferta/uslugi-brukarskie",
-            "slug": "uslugi-brukarskie",
-            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
-  "image": "/images/bruk.jpg"
           },
           {
             "name": "Stany surowe",
             "url": "/oferta/stany-surowe",
             "slug": "stany-surowe",
-            "description": "Opis uslugi, lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+            "description": "Realizujemy stany surowe budynków jednorodzinnych, handlowych i magazynowych. Nasz zespół doświadczonych budowlańców skupia się na solidności konstrukcji oraz zgodności z projektem, zapewniając stabilną podstawę dla dalszych etapów budowy.",
             "image": "/images/stan-surowy/4/ob11_1.jpg"
+          },
+          {
+            "name": "Usługi brukarskie",
+            "url": "/oferta/uslugi-brukarskie",
+            "slug": "uslugi-brukarskie",
+            "description": "Układamy kostkę brukowową na parkingach, drogach i chodnikach. Możesz liczyć na najwyższą jakość naszych usług oraz trwałość wykonanych przez nas nawierzchni.",
+            "image": "/images/bruk.jpg"
           }
     ]
   

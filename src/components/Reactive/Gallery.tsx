@@ -14,6 +14,7 @@ import lgZoom from 'lightgallery/plugins/zoom';
 export interface Image {
     src: string;
     thumb: string;
+    location: string;
 }
 
 function Gallery({images, title, more}: {images: Image[], title: string, more?: boolean}) {
@@ -35,12 +36,12 @@ function Gallery({images, title, more}: {images: Image[], title: string, more?: 
         ).map((image) => (
                    <a href={image.src} key={image.src} className="inline-block m-1 p-1 w-[46%] lg:w-[23%]" style={{display: "inline-block", margin: "5px"}}>
                    <img loading="lazy" alt={image.src} width="100%" src={image.thumb} />
-                   <p className="text-gray-500 mt-2">{title}</p>
+                   <p className="text-gray-500 mt-2">{image.location}</p>
                </a>
                 )) : images.map((image) => (
                            <a href={image.src} key={image.src} className="inline-block m-1 p-1 w-[46%] lg:w-[23%]" style={{display: "inline-block", margin: "5px"}}>
                            <img loading="lazy" alt={image.src} width="100%" src={image.thumb} />
-                           <p className="text-gray-500 mt-2">Tarnów</p>
+                           <p className="text-gray-500 mt-2">{image.location}</p>
                        </a>
                         ))}
             </LightGallery>

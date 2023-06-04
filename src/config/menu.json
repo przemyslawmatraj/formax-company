@@ -37,12 +37,12 @@
           "url": "/oferta/ogrodzenia"
         },
         {
-          "name": "Usługi brukarskie",
-          "url": "/oferta/uslugi-brukarskie"
-        },
-        {
           "name": "Stany surowe",
           "url": "/oferta/stany-surowe"
+        },
+        {
+          "name": "Usługi brukarskie",
+          "url": "/oferta/uslugi-brukarskie"
         }
       ]
     },

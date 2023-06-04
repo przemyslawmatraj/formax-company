@@ -1,19 +1,71 @@
 ---
-
+import { params } from "@config/config.json";
 ---
 
 <div class="bg-gray-200">
-    <section class="container mx-auto  px-5 grid lg:grid-cols-2 gap-4">
-            <div class="my-[var(--space-2xl-3xl)]">
+    <section class="container mx-auto px-5 grid lg:grid-cols-2 gap-4">
+        <div class="my-[var(--space-l-xl)] lg:my-[var(--space-2xl-3xl)]">
             <h2 class="h2 capitalize">Napisz do nas</h2>
-            <p class="max-w-[500px] text-gray-700 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+            <div class="max-w-[500px] text-gray-700 mt-4">
+                <p class="mb-4">
+                    Jeśli szukasz profesjonalnej firmy budowlanej w Tarnowie i
+                    okolicach, jesteśmy do Twojej dyspozycji! Chętnie udzielimy
+                    Ci wszelkich informacji na temat oferowanych przez nas usług
+                    oraz doradzimy w kwestionach związanych z budową, remontem
+                    czy wykończeniem Twojego domu czy inwestycji.
+                </p>
+                <ul class="mb-4">
+                    <li>
+                        <strong>Telefon:</strong>{" "}<a
+                            href={`tel:${params.phone}`}>{params.phone}</a
+                        >
+                    </li>
+                    <li>
+                        <strong>E-mail:</strong>{" "}<a
+                            href={`mailto:${params.email}`}>{params.email}</a
+                        >
+                    </li>
+                    <li><strong> Adres:</strong>{" "}{params.location}</li>
+                </ul>
             </div>
-            <form class="grid gap-4 bg-white p-[var(--space-l-xl)]" action="send-email.php">
-                <input name="name" type="text" placeholder="Imię i Nazwisko" class="bg-transparent border-2 border-gray-500 p-4" />
-                <input name="email" type="text" placeholder="Email" class="bg-transparent border-2 border-gray-500 p-4" />
-                <input name="phone" type="text" placeholder="Telefon" class="bg-transparent border-2 border-gray-500 p-4" />
-                <textarea name="message" placeholder="Wiadomość" class="bg-transparent border-2 border-gray-500 p-4"></textarea>
-                <button type="submit" class="uppercase font-semibold text-red-600 mt-5 max-w-fit border-2 border-red-600 p-4 justify-start">Wyślij wiadomość</button>
-            </form>
-        </section>
-    </div>
+        </div>
+        <form
+            class="grid gap-4 bg-white p-[var(--space-l-xl)]"
+            action="send-email.php"
+        >
+            <input
+                name="name"
+                type="text"
+                placeholder="Imię i Nazwisko"
+                class="bg-transparent border-2 border-gray-500 p-4"
+                required
+            />
+            <input
+                name="email"
+                type="email"
+                placeholder="Email"
+                class="bg-transparent border-2 border-gray-500 p-4"
+                required
+            />
+            <input
+                name="phone"
+                type="number"
+                placeholder="Telefon"
+                class="bg-transparent border-2 border-gray-500 p-4"
+                required
+            />
+            <textarea
+                name="message"
+                placeholder="Wiadomość"
+                class="bg-transparent border-2 border-gray-500 p-4"
+                required></textarea>
+            <button
+                type="submit"
+                class="uppercase font-semibold text-red-600 mt-5 max-w-fit border-2 border-red-600 p-4 justify-start"
+                >Wyślij wiadomość</button
+            >
+        </form>
+    </section>
+</div>
+
+<script></script>
