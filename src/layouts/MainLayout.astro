@@ -12,12 +12,11 @@ export interface Props {
 }
 
 // distructure frontmatters
-const { title, description, image } =
-  Astro.props;
+const { title, description, image } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <!-- favicon -->
     <link rel="shortcut icon" href={config.site.favicon} />
@@ -28,9 +27,12 @@ const { title, description, image } =
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <!-- google font css -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- responsive meta -->
     <meta
       name="viewport"
@@ -39,34 +41,25 @@ const { title, description, image } =
 
     <!-- title -->
     <title>
-      { title ? title : config.site.title}
+      {title ? title : config.site.title}
     </title>
 
     <!-- meta-description -->
     <meta
       name="description"
-      content={
-        description ? description : config.metadata.meta_description
-      }
+      content={description ? description : config.metadata.meta_description}
     />
 
     <!-- author from config.json -->
     <meta name="author" content={config.metadata.meta_author} />
 
     <!-- og-title -->
-    <meta
-      property="og:title"
-      content={
-         title ? title : config.site.title
-      }
-    />
+    <meta property="og:title" content={title ? title : config.site.title} />
 
     <!-- og-description -->
     <meta
       property="og:description"
-      content={
-        description ? description : config.metadata.meta_description
-      }
+      content={description ? description : config.metadata.meta_description}
     />
     <meta property="og:type" content="website" />
     <meta
@@ -81,7 +74,6 @@ const { title, description, image } =
         image ? image : config.metadata.meta_image
       }`}
     />
-
   </head>
   <body>
     <Navbar />
